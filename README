@@ -1,1 +1,14 @@
-theo krueger
+#Contributors
+
+AJ Stone 296306
+Theo
+Sid
+
+#Instructions
+
+1. Open a terminal and run transducer.py via python3 transducer.py
+2. Open a seperate terminal and run the triangle app via ./triangle-app-v1.1
+
+#Program Testing Info
+
+In order to test this program two methods were employed. The first was to simply run the program side by side with the example GUI to confirm that the same behavior was produced by both programs. Indeed, our program matched the behavior of the example perfectly, so we moved onto a more thorough test. This test consisted of looking for edge cases in the code by giving manual input via cat > fromGUI and checking for the proper output via cat < toGUI. Through this test we were able to verify that our program produces error messages for transitions that should not be possible from a given state. For example in the INIT state any command given other than "documentReady" should give an error message and that is what our program does. Both of these tests produced positive results therefore our program has no known bugs. 
